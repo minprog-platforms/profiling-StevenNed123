@@ -1,3 +1,8 @@
+"""
+A bunch of helper functions for solve.py
+Solve.py solves one of the sudoku puzzles found in the puzzle directory
+"""
+
 from __future__ import annotations
 from typing import Iterable
 
