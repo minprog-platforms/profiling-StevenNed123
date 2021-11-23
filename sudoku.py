@@ -8,7 +8,7 @@ class Sudoku:
     def __init__(self, puzzle: Iterable[Iterable]):
 
         # changed self._grid to a list of lists
-        self._grid: list[int] = []
+        self._grid: list[list[int]] = []
 
         for puzzle_row in puzzle:
             row = []
